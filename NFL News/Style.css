@@ -47,7 +47,9 @@ ul {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0px 20px;
-
+}
+article .image {
+    padding: 0px;
 }
 article p {
     margin: 30px 0px 0px;
@@ -92,16 +94,24 @@ article p {
 }
 .Author {
     display: flex; 
+    justify-content: space-between;
+}
+.Share {
+    display: flex;
 }
 .Authortitle {
     color: #9b9b9b;
     font-size: 12px;
     text-align: left;
+    margin: 0px;
+    padding-left: 20px;
 }
 .Authorname {
     color: #fe074e;
     font-size: 14px;
     text-align: left;
+    margin: 0px;
+    padding-left: 20px;
 }
 .Authortwitter {
     font-size: 12px;

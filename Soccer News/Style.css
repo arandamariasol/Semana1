@@ -115,19 +115,25 @@ article p {
 }
 .Author {
     display: flex; 
+    justify-content: space-between;
 }
 .Authortitle {
     color: #9b9b9b;
     font-size: 12px;
     text-align: left;
+    margin: 0px;
+    padding-left: 20px;
 }
 .Authorname {
     color: #fe074e;
     font-size: 14px;
     text-align: left;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
-.Authortwitter {
-    font-size: 12px;
+.Share {
+    display: flex;
 }
 .Sublinks {
     text-align: center;
