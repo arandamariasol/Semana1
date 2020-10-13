@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f9f8f5;
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#434444;   
+}
+a {
+    cursor: pointer;
+    color: #fe074e;
+    text-decoration: none;
+}
+a:hover {
+        text-decoration: underline;
+}
+p {
+    margin-bottom: 1rem;
+    font-size: inherit;
+}
+h1, h3 {
+    font-style: normal;
+    font-weight: 700;
+    color: #343434;
+}
+h1 {
+    margin: 30px 20px 22px;
+    font-size: 34px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+h3 {
+    margin: 30px 0px 0px;
+}
+th {
+    background-color: #fff;
+    border-bottom-color: rgb(249, 248, 245);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    color: #16181b;
+    display: table-cell;
+    font-size: 16px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+}
+td {
+    color: #16181b;
+    display: table-cell;
+    font-size: 14px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: middle;
+} 
+article {
+    width: 53%;
+    background-color: white;
+    color: #16181b;
+    margin: auto;
+    font-size: 18px;
+    padding: 0px 20px;
+
+}
+article p {
+    margin: 30px 0px 0px;
+}
+.first-p {
+    margin: 15px 0px 0px;
+}
+.Navegator {
+    background-color: #fe074e;
+    position: relative;
+    text-align: center;
+    border-bottom: .375rem solid #3e0ae2;
+}
+.article-label a {
+    background: transparent;
+    cursor: pointer;
+    color: #9b9b9b;
+    transition: color .2s ease;
+    text-decoration-style: solid;
+}
+.article-label a:hover {
+    text-decoration: none;
+}
+.article-time {
+    font-size: .75rem;
+    font-weight: 700;
+    color: #9b9b9b;
+    text-transform: uppercase;
+    text-align: right;
+}
+.Topinfo {
+    padding: 15px 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.Author {
+    display: flex; 
+}
+.Authortitle {
+    color: #9b9b9b;
+    font-size: 12px;
+    text-align: left;
+}
+.Authorname {
+    color: #fe074e;
+    font-size: 14px;
+    text-align: left;
+}
+.Authortwitter {
+    font-size: 12px;
+}
+.Sublinks {
+    text-align: center;
+}
+.Finalbutton a {
+    background-color: #fe074e;
+    color: white;
+    margin-top: 100px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none
+}
