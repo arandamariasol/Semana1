@@ -23,11 +23,11 @@ h1, h3 {
     font-style: normal;
     font-weight: 700;
     color: #343434;
+    font-family: "Roboto Condensed", sans-serif;
 }
 h1 {
     margin: 30px 20px 22px;
     font-size: 34px;
-    font-family: "Roboto Condensed", sans-serif;
     font-style: normal;
     font-weight: 700;
     text-rendering: optimizeLegibility;
@@ -40,10 +40,11 @@ ul {
     margin: 30px 0px 0px;
 }
  article {
-    width: 53%;
+    width: 46%;
     background-color: white;
     color: #16181b;
     margin: auto;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     padding: 0px 20px;
 
@@ -79,9 +80,15 @@ article p {
 }
 .Topinfo {
     padding: 15px 20px;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 12px;
     display: flex;
     justify-content: space-between;
+}
+.image {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .Author {
     display: flex; 
@@ -101,6 +108,10 @@ article p {
 }
 .Sublinks {
     text-align: center;
+}
+.Finalp {
+    border-bottom-style: ridge;
+    padding-bottom: 30px;
 }
 .Finalbutton a {
     background-color: #fe074e;
